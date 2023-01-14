@@ -21,9 +21,7 @@ class SpeakEasyTranslator:
 
     def translate_phrase(self) -> str:
         """Return the translated phrase of user input"""
-        translator = Translator()
-        translated_text = translator.translate(self.inputted_phrase)
-        return translated_text.text
+        return ts.translate_text(self.inputted_phrase)
 
     def suggest(self, tone: str) -> str:
         """Return different suggestions of the user's input depending on their
@@ -55,6 +53,7 @@ class SpeakEasyTranslator:
 
 
 if __name__ == "__main__":
+    pass
     # Example usage:
     user_input = input("Enter your desired phrase to translate: ")
     transl = SpeakEasyTranslator(user_input)
