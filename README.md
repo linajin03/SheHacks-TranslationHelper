@@ -1,1 +1,1 @@
-# SheHacks-TranslationHelper
+# SheHacks-Speak-Easy
