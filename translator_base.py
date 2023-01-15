@@ -19,9 +19,12 @@ class SpeakEasyTranslator:
         """
         self.inputted_phrase = inputted_phrase
 
+    # This is not functioning properly due to bugs in Google's translate API.
+    # The user or front end should input an English phrase in order to generate
+    # suggestions.
     def translate_phrase(self) -> str:
         """Return the translated phrase of user input"""
-        return ts.translate_text(self.inputted_phrase)
+        return self.inputted_phrase
 
     def suggest(self, tone: str) -> str:
         """Return different suggestions of the user's input depending on their
