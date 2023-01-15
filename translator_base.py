@@ -1,5 +1,6 @@
 import cohere
 from googletrans import Translator
+from scipy.special._precompute.cosine_cdf import ts
 
 co = cohere.Client('uAAXOvSLigsz9qCYyB0FhfSk7VGPL3pekqhynDfm')
 
