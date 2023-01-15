@@ -6,7 +6,8 @@ Through our passion for education, culture, and community, we wanted to find a b
 
 ## Our functionalities
 - Using Cohere's AI-generated content writer, Users have the option to receive suggestions of different ways of saying their translated phrase so they are not just stuck with the dictionary translation: by establishing the context of the formality of their phrase (informal/formal), users get suggestions that are appropiate to their situation. This is a great way to learn slang, common phrases, proper grammar, and more.
-- Speak-Easy hosts an online forum for users to 
+- Speak-Easy hosts an online forum for users to share ideas, ask questions, and help each other out.
+- A dictionary feature that allows users to save their favourite phrases and words.
 
 ## Our challenges
 - Accessing Google's Translation API: Frequently encountered an AttributeError when trying to translate foreign phrases. May be an issue with the Google Translation API itself?
