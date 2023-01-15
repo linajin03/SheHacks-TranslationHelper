@@ -32,29 +32,20 @@
         <a class="cta" href="#">Login</a>
       </div>
     </div>
-
-    <script>
+    <script
       type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
-    </script>
-    <script>
-      nomodule;
-      src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
-    </script>
-    <div class="mode">
-      <label class="toggle" for="dark-mode-btn">
-        <div class="toggle-track">
-          <input type="checkbox" class="toggle-checkbox" id="dark-mode-btn" />
-          <span class="toggle-thumb"></span>
-          <img src="images/sun.png" alt="" />
-          <img src="images/moon.png" alt="" />
-        </div>
-      </label>
-    </div>
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  <body>
     <div class="container">
       <div class="card input-wrapper">
         <div class="from">
-          <span class="heading">Original:</span>
+          <span class="heading">Original</span>
           <div class="dropdown-container" id="input-language">
             <div class="dropdown-toggle">
               <ion-icon name="globe-outline"></ion-icon>
@@ -115,7 +106,7 @@
           disabled
         ></textarea>
         <div class="card-bottom">
-          <p>Download Document</p>
+          <p>Dowload Text Document</p>
           <button id="download-btn">
             <span>Download</span>
             <ion-icon name="cloud-download-outline"></ion-icon>
@@ -123,6 +114,11 @@
         </div>
       </div>
     </div>
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
     <script src="../homepage/mobile.js"></script>
     <script src="../homepage/languages.js"></script>
     <script src="../homepage/script.js"></script>
