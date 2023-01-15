@@ -23,5 +23,9 @@ Through our passion for education, culture, and community, we wanted to find a b
 - An educational feature along with our translations to help users learn more about international cultures:
   - i.e.: "Americans commonly use *abbreviations* in their text slang, such as 'Laugh Out Load' to 'LOL'. Some people even extend this language to their verbal speech!"
 - Create a log-in/log-out system for Users to save their personalized profiles, posts, favourited phrases, etc.
+- Give translations that adhere to different emotions as well.
+- Real-time conversations with real-life people who are online, or AI chat robots (possibly by using Cohere's chat generization/summarization models)
+
+
 
 
